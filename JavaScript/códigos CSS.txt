@@ -1,0 +1,20 @@
+height  --> Altura de um elemento
+widht   --> Largura do Elemento
+
+background-color --> define a cor de fundo de um elemento.
+
+display:flex; --> serve para dispor os elementos dentro de um determinado container em linhas ou colunas
+
+justify-content: -->  define como o navegador distribui o espaço entre e ao redor dos itens de conteúdo ao longo do 
+eixo principal de um contêiner flexível
+
+align-items: --> A propriedade especifica o alinhamento padrão para itens dentro do contêiner flexível.
+
+
+
+label --> legenda
+
+<br> --> pular linha
+
+
+

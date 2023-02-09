@@ -1,0 +1,117 @@
+html{
+
+height: 100%;
+
+}
+body{
+
+    height: 100%;
+    margin: 0%;
+
+}
+#container{
+
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#1E90FF,#00008B);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#meio{
+
+    height: 60%;
+    width: 40%;
+    border-radius: 50px;    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+#login{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#lado-direito{
+
+    height: 70%;
+    width: 50%;
+
+}
+#nome{
+
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+#inputs{
+
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    margin: 5% 0;
+    border-radius: 50%;
+    
+
+}
+.inputs{
+
+    height: 36%;
+    width: 60%;
+    background-color:rgb(241, 241, 241);
+    border-radius: 10px ;
+    border: solid 1px ;
+
+}
+#botao{
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+
+}
+.botao{
+
+    width: 60%;
+    border-radius: 15px;
+    transform: 0.7s;
+
+}
+.botao:hover{
+
+    color: white;
+    border-radius: 15px;
+    background-color: #000000;
+    cursor: pointer;
+    transform: 0.7s;
+
+}
+#creat{
+
+    display: flex;
+    justify-content: center;
+
+}
+#lado-esquerdo{
+
+    display: flex;
+
+}
+a:visited{
+
+    color: rgb(102, 102, 102);
+
+}

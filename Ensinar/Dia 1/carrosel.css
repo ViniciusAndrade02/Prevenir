@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #EC058E;
+    
+}
+#item {
+    background-color: #2F4F4F;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 400px;
+}
+
+#pesquisar {
+    float: left;
+    background-color: transparent;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px; 
+    width: 360px;
+
+}
+
+#imgBusca {
+    height: 32px;
+}
+
+.underMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+#imgGps {
+    height: 32px;
+    
+   
+}
+
+.textNav {
+    color: rgba(0,0,0,.5);
+    
+}
+.strong {
+    color: #333;
+}
+
+#imgSeta {
+    height: 12px;
+}
+
+.menuNav {
+    padding-left:  20px;
+    color: rgba(0,0,0,.5);
+}
+
+#imgCarrinho {
+    height: 22px;
+}
+
+.carrosel {
+
+    justify-content: center;
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 400px;
+    width: 1400px;
+    background-color: red;
+}
+
+
+.cont {
+
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+
+#img {
+    object-fit: cover;
+    height: 400px;
+    width: 1400px;
+}

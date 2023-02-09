@@ -1,0 +1,383 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0%;
+
+}
+
+#Geral{
+
+    height: 100%;
+    display: flex;
+
+}
+
+#MeioEsquerda{
+
+    height: 100%;
+    width: 35%;
+    background-color: white;
+
+}
+
+#Ursinho{
+
+    height: 25%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#Bear{
+
+    height: 52%;
+    width: 23%;
+
+}
+
+#Login{
+
+    height: 6%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#LogInnn{
+
+    font-size: 250%;
+    color: rgb(61, 63, 65);
+
+}
+
+#Dont{
+
+    height: 4%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+#DontPreto{
+
+    height: 100%;
+    width: 52%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+
+}
+
+#Have{
+
+    font-size: 120%;
+    color: rgb(70, 72, 74);
+
+}
+
+
+#DontLaranja{
+
+    height: 100%;
+    width: 48%;
+    background-color: white;
+    display: flex;
+    justify-content: baseline;
+    
+}
+
+#Get{
+
+    font-size: 120%;
+    color: rgb(222, 119, 57);
+
+}
+
+#Email{
+
+    height: 4%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+#Address{
+
+    font-size: 18px;
+    color: rgb(140, 143, 144);
+}
+
+#BottaoEmail{
+
+    height: 8%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: center;
+}
+
+#DigiteEmail{
+
+    height: 67%;
+    width: 57%;
+    border: 1px solid ;
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(236, 222, 222);
+}
+
+#Pass{
+
+    height: 4%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+#Password{
+
+    font-size: 18px;
+    color: rgb(140, 143, 144);
+
+}
+
+#BottlaoPass{
+
+    height: 8%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#DigitePass{
+
+    height: 67%;
+    width: 57%;
+    border: 1px solid ;
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(236, 222, 222);
+}
+
+
+#Stay{
+
+    height: 4%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+#CheckBox{
+
+    height: 100%;
+    width: 24%;
+    background-color: white;
+}
+
+#Check{
+
+    height: 45%;
+    width: 182%;
+
+}
+
+#Sidney{
+
+    height: 100%;
+    width: 76%;
+    
+}
+
+#Sid{
+
+    color: rgb(99, 110, 107);
+}
+
+#Log{
+
+    height: 8%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#LOGIN{
+
+    height: 80%;
+    width: 65%;
+    color: white;
+    font-size: 144%;
+    background-color: rgb(222, 119, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0ch;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#Forgot{
+
+    height: 8%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Forgotyour{
+
+    font-size: 22px;
+    color: rgb(70, 72, 74);
+    text-decoration: underline;
+}
+
+#WP{
+
+    height: 4%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+#Wpp{
+
+    color: rgb(152, 151, 151);
+
+}
+#Terms{
+
+    height: 4%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+#Termsof{
+
+    color: rgb(152, 151, 151);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+#MeioDireita{
+
+    height: 100%;
+    width: 65%;
+    background-image: url('fundobear.png');
+    
+}
+
+#MeioDireitaCentro{
+
+    height: 70%;
+    width: 30%;
+    background-color: white;
+
+    position: fixed;
+    top: 20%;
+    left: 52%;
+    
+}
+
+#Inicio{
+
+    height: 30%;
+    width: 100%;
+
+}
+
+#Titulo{
+
+    font-size: 230%;
+    color: rgb( 70, 72, 74);
+
+}
+
+#Meio{
+
+    height: 30%;
+    width: 100%;
+
+}
+
+#Pay{
+
+    color: rgb(140, 143, 144);
+    font-size: 130%;
+
+}
+
+#Enjoy{
+
+    font-size: 130%;
+
+}
+#Fim{
+
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+#Learn{
+
+    height: 32%;
+    width: 65%;
+    color: white;
+    font-size: 125%;
+    background-color: rgb(222, 119, 57);
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    border: 0ch;
+    border-radius: 5px 5px 5px 5px;
+    margin: 2%;
+    
+
+
+}

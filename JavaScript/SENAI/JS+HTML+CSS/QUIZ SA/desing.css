@@ -1,0 +1,46 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0%;
+
+}
+#Geral{
+
+    height: 100%;
+
+}
+
+#teto{
+
+    height: 11%;
+    width: 100%;
+    display: flex;
+}
+
+#amburguer{
+
+    height: 100%;
+    width: 10%;
+    background-color: bisque;
+}
+
+#titulo{
+
+    height: 100%;
+    width: 90%;
+    background-color: brown;
+}
+
+#perfil{
+
+    height: 100%;
+    width: 10%;
+    background-color: cyan;
+
+}

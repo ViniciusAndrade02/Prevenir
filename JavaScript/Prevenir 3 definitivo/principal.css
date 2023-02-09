@@ -1,0 +1,2278 @@
+
+
+html{
+
+    height: 100%;
+
+}
+body{
+
+    height: 100%;
+    margin: 0%;
+
+
+}
+
+#Geral{
+
+    height: 100%;
+    width: 100%;
+
+
+}
+
+
+
+#cabecalho{
+
+    display: flex;
+
+    height: 10%;
+    width: 100%;
+
+    background-color: #3f0202;
+    position: fixed;
+    z-index: 5;
+
+}
+
+#logo{
+
+    height: 100%;
+    width: 22%;
+
+
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+
+}
+
+#logoprevenir{
+
+    height: 60px;
+    width: 155px;
+
+    position: relative;
+    top: -3%;
+    left: 10%;
+
+
+}   
+
+#substitulos{
+
+    height: 100%;
+    width: 56%;
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#div-home{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-quemsomos{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.edit-substitulo{
+
+    color: #f0eaea;
+    margin-left: 35px;
+    font-size: 125%;
+    display: inline-block;
+    font-family: initial;
+    cursor: pointer;
+    transition: 0.4s;
+
+    position: relative;
+    top: 7%;
+    left: -15px;
+}
+
+.edit-substitulo::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 7%;
+    bottom: 0;
+    left: 0;
+    top: 105%;
+    background-color: #cc3609;
+    transform-origin: bottom right;
+    transition: transform 0.8s ease;
+}
+  .edit-substitulo:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+}
+
+.edit-substitulo:hover{
+
+    color: #f70000;
+    transition: 0.4s;
+    font-family: initial;
+    font-size: 135%;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 38%;
+    background-color: #b80707;
+    width: 14%;
+    height: 75%;
+    z-index: 1;
+
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.dropdown-content:hover{
+
+    background-color: #0eb90e;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+#div-quemsomos:hover .dropdown-content {
+    display: block;
+    transition: 0.3s;
+}
+
+#div-quemsomos:hover .edit-substitulo{
+
+    color: #f70000;
+    transition: 0.4s;
+    font-family: initial;
+    font-size: 135%;
+}
+
+#div-produtoeservico{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#div-substitulo{
+
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dropdown-div-tudo{
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    
+}
+
+.sobre-a-empresa{
+
+    color: #f0eaea;
+    cursor: pointer;
+    font-size: 120%;
+    padding: 7%;
+}
+
+
+
+#cadastrar{
+
+    height: 100%;
+    width: 22%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+#iconeperfil{
+
+    cursor: pointer;
+    height: 80%;
+    width: 17%;
+    transition: 0.3s;
+
+    position: relative;
+    left: 1%;
+}
+
+.usuario{
+
+    color: #f0eaea;
+    font-size: 125%;
+    position: relative;
+    font-family: initial;
+    left: 6%;
+    top: 5%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.usuario::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 7%;
+    bottom: 0;
+    left: 0;
+    top: 105%;
+    background-color: #cc3609;
+    transform-origin: bottom right;
+    transition: transform 0.8s ease;
+}
+
+.usuario:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+}
+
+.usuario:hover{
+
+    color: #f70000;
+    transition: 0.4s;
+    font-family: initial;
+    font-size: 135%;
+}
+
+
+#meio{
+
+    display: flex;
+    height: 91%;
+    width: 100%;
+
+    background-color: #17cfa4;
+
+    position: relative;
+    top: 10%;
+
+    opacity: 1;
+    animation:  animartelaprincipal  1.5s ease;
+}
+
+@keyframes animartelaprincipal{
+	0% {
+		opacity: 0;
+	} 
+    100%{
+		opacity: 1;
+	}
+}
+
+#meio-direita{
+
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100%;
+    width: 56%;
+
+    z-index: 1;
+
+}
+
+#div-serve-para-scrollInto-View-quemsomos{
+
+    height: 2%;
+    width: 2%;
+    position: relative;
+    top: 50%;
+}
+
+#escrita-incendio{
+
+    color: #E21B14;
+    position: relative;
+    left: 0px;
+
+}
+
+.SolucoesContra{
+
+    font-family: 'Times New Roman', Times, serif;
+    color: #107c5a;
+    font-size: 78px;
+    font-weight: 600;
+
+    position: relative;
+    left: 0px;
+    top: 20%;
+
+    animation:  animarlabelhome 2.5s ease;
+    opacity: 1;
+}
+
+@keyframes animarlabelhome{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        left: -150%;
+    }
+
+    100%{
+
+        opacity: 1;
+        position: relative;
+        left: 0%;
+    }
+
+}
+
+#escrita-chamativa{
+
+    font-weight: 600;
+    font-size: 150%;
+    position: relative;
+    top: 23%;
+    color: #22191a;
+    animation:  animarlabelhome-2 2.5s ease;
+
+}
+
+#escrita-chamativa-2{
+
+    font-weight: 600;
+    font-size: 150%;
+    position: relative;
+    top: 23%;
+    color: #22191a;
+    animation:  animarlabelhome-2 2.5s ease;
+}
+
+@keyframes animarlabelhome-2{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        left: 90%;
+    }
+
+    100%{
+
+        opacity: 1;
+        position: relative;
+        left: 0px;
+    }
+
+}
+
+#barra{
+
+    height: 106%;
+    width: 3.8%;
+    background: linear-gradient(#861a10,#f22e1e);
+    transform: rotate(-2deg);
+    position: relative;
+    left: 11px;
+    top: -2px;
+    z-index: 2;
+
+}
+
+@font-face {
+    font-family: titulos;
+    src: url(caligrafias/LEMONMILK-Regular.otf);
+}
+
+
+#imagem-quemsomos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 15%;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    z-index: 3;
+    background-color: #188169;
+
+    border-radius: 0% 0% 95px 95px;
+}
+
+.titulo-apresentacao{
+
+    font-size: 30%;
+    font-family: titulos;
+    color: rgb(0,0,0);
+
+}
+
+#quemsomos{
+
+    display: flex;
+    height: 84%;
+    width: 100%;
+    background-color: #FAFAFA;
+
+}
+
+#resumo{
+
+    height: 100%;
+    width: 60%;
+
+}
+
+#espaco{
+
+
+    height: 17%;
+    width: 100%;
+
+}
+
+#titulo-quemsomos{
+
+    height: 10%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escrita-quemsomos{
+
+    font-size: 270%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: #188169;
+
+    position: relative;
+    left: -7px;
+}
+
+.label-quemsomos-css-0{
+
+    font-size: 270%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: #188169;
+    animation:  tituloquemsomos-3 3.3s ease;
+
+    position: relative;
+    left: -7px;
+}
+
+@keyframes tituloquemsomos-3{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        top: 300%;
+    }
+    60%{
+
+        opacity: 1;
+        position: relative;
+        top: 0px;
+        left: -7px;
+
+    }
+}
+
+#explicacaodoquemsomos{
+
+    display: flex;
+    height: 25%;
+    width: 100%;
+}
+
+#espaco-explicacao-esquerda{
+
+    height: 100%;
+    width: 10%;
+
+}
+
+#definitiva-explicacao{
+
+    height: 100%;
+    width: 80%;
+
+}
+
+.label-quemsomos-css-1{
+
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative;
+    top: 10px;
+    color: rgb(2, 1, 1);
+    animation:  nada 3.3s ease;
+}
+
+.label-quemsomos-css-2{
+
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative;
+    top: 10px;
+    color: rgb(2, 1, 1);
+    animation:  nada 3.3s ease;
+}
+
+.label-quemsomos-css-3{
+
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative;
+    top: 10px;
+    color: rgb(2, 1, 1);
+    animation:  nada 3.3s ease;
+}
+
+
+.label-quemsomos-css-4{
+
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    position: relative;
+    top: 10px;
+    background-color: #18bd96;
+    padding: 1.5px;
+    opacity: 1;
+    color: #060a06;
+    animation:  nada 3.3s ease;
+}
+
+@keyframes nada{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        top: 170%;
+    }
+
+    60%{
+
+        opacity: 1;
+        position: relative;
+        top: 10px;
+    }
+
+}
+
+.parceria-pela-vida{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    position: relative;
+    top: 10px;
+    background-color: #18bd96;
+    padding: 1.5px;
+    color: #060a06;
+}
+
+
+
+#espaco-centralizar{
+
+    height: 12%;
+    width: 100%;
+
+}
+
+#titulo-nosso-diferencial{
+
+    height: 10%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escrita-nosso-diferencial{
+
+    font-size: 43px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: #188169;
+}
+
+
+
+.label-nosso-diferencial-animacao-css-1{
+
+    font-size: 43px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: #188169;
+    animation:  nossodiferencial 3.3s ease;
+}
+
+@keyframes nossodiferencial{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        top: 200px;
+    }
+
+    60%{
+
+        opacity: 1;
+        position: relative;
+        top: 0px;
+    }
+
+}
+
+.mostrando-quemsomos{
+
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative;
+    top: 10px;
+    color: rgb(2, 1, 1);
+}
+
+.label-nosso-diferencial-animacao-css-2{
+
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative;
+    top: 10px;
+    color: rgb(2, 1, 1);
+
+    animation:  nossodiferencial-2 3.3s ease;
+}
+
+.label-nosso-diferencial-animacao-css-3{
+
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative;
+    top: 10px;
+    color: rgb(2, 1, 1);
+
+    animation:  nossodiferencial-2 3.3s ease;
+}
+
+@keyframes nossodiferencial-2{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        top: 200px;
+    }
+
+    60%{
+
+        opacity: 1;
+        position: relative;
+        top: 10px;
+    }
+
+}
+
+
+#explicacaonossodiferencial{
+
+    display: flex;
+    height: 28%;
+    width: 100%;
+}
+
+#espaco-explicacao-diferencial-esquerda{
+
+    height: 100%;
+    width: 10%;
+
+}
+
+#definitivo-explicacao-diferencial{
+
+    height: 100%;
+    width: 80%;
+
+}
+
+#mostrar-diferencial{
+
+    height: 50%;
+    width: 100%;
+
+}
+
+#botao-saiba-mais-quem-somos{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 50%;
+    width: 100%;
+
+}
+
+.animar-botao-saibamais-nosso-diferencial{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 50%;
+    width: 100%;
+    animation:  botaodiferencial 3.3s ease;
+}
+
+@keyframes botaodiferencial{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        top: 200px;
+    }
+
+    60%{
+
+        opacity: 1;
+        position: relative;
+        top: 0px;
+    }
+
+}
+
+
+.edit-botao-saiba-mais{
+
+    height: 70%;
+    width: 35%;
+
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px 15px 15px 15px;
+    transition: 1s;
+    background-color: #0da884;
+
+    position: relative;
+    top: 10px;
+
+}
+
+.edit-botao-saiba-mais:hover{
+
+    height: 73%;
+    width: 38%;
+    transition: 0.5s;
+    box-shadow: 3px 3px 10px #60e6c6;
+    background: linear-gradient(136deg,#0da884,#4be0be);
+    animation: transicao 3s ease  infinite;
+    background-size: 400% 400%;
+}
+
+#territorio-carrosel{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 40%;
+
+
+
+}
+
+#carrossel{
+
+    box-shadow: 2px 2px 4px black;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    height: 76%;
+    width:  74%;
+
+    position: relative;
+    top: 30px;
+}
+
+.animar-carrosel-css-5{
+
+    box-shadow: 2px 2px 4px black;
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+    height: 76%;
+    width: 74%;
+
+    position: relative;
+    top: 30px;
+
+    animation: animarcarrosel 7s ease;
+}
+
+@keyframes animarcarrosel{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        top: 35%;
+    }
+
+    60%{
+
+        opacity: 1;
+        position: relative;
+        top: 30px;
+    }
+
+}
+
+.cont{
+
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+#img{
+
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+#imagemficarencaixada{
+
+    height: 100%;
+    width: 100%;
+}
+
+#territorio-especialista{
+
+
+    height: 130%;
+    width: 100%;
+
+}
+
+#espaco-2{
+
+    height: 12%;
+    width: 100%;
+    background-color: #FAFAFA
+}
+
+#especialista{
+
+    height: 88%;
+    width: 100%;
+    background-color: #18a887;
+}
+
+#titulo-especialista{
+
+    height: 14%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@font-face {
+    font-family: titulos;
+    src: url(caligrafias/LEMONMILK-Regular.otf);
+}
+
+
+.label-conhecaespecialista{
+
+    font-size: 40px;
+    font-family:titulos;
+    color: #22191a;
+
+}
+
+.label-especialista-2{
+
+    font-size: 40px;
+    font-family:titulos;
+    color: #22191a;
+
+
+
+}
+
+#espaco-3{
+
+    height: 4%;
+    width: 100%;
+
+}
+
+#defitivo-especialista{
+
+    display: flex;
+    height: 82%;
+    width: 100%;
+
+}
+
+#ju{
+
+    height: 100%;
+    width: 25%;
+    opacity: 0;
+
+
+}
+
+#nome-da-ju{
+
+    height: 10%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#foto-ju{
+
+    height: 80%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#edit-ju{
+
+    height: 77%;
+    width: 77%;
+    transition: 0.6s;
+}
+
+#edit-ju:hover{
+
+    transition: 0.6s;
+    height: 81%;
+    width: 82%;
+}
+
+#funcao-ju{
+
+    height: 10%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#diego{
+
+    height: 100%;
+    width: 25%;
+    opacity: 0;
+
+}
+
+#nome-do-diego{
+
+    height: 10%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foto-diego{
+
+    height: 80%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#edit-di{
+
+    height: 77%;
+    width: 77%;
+    transition: 0.6s;
+}
+
+#edit-di:hover{
+
+    transition: 0.6s;
+    height: 81%;
+    width: 82%;
+}
+
+#funcao-di{
+
+    height: 10%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#douglas{
+
+    
+    height: 100%;
+    width: 25%;
+    opacity: 0;
+
+}
+
+#nome-do-douglas{
+
+    height: 10%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foto-douglas{
+
+    height: 80%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#edit-douglas{
+
+    height: 77%;
+    width: 77%;
+    transition: 0.6s;
+}
+
+#edit-douglas:hover{
+
+    transition: 0.6s;
+    height: 81%;
+    width: 82%;
+}
+
+#funcao-douglas{
+
+    height: 10%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hard{
+
+    height: 100%;
+    width: 25%;
+    opacity: 0;
+
+}
+
+#nome-do-hard{
+
+    height: 10%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#foto-hard{
+
+    height: 80%;
+    width: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#edit-hard{
+
+    height: 77%;
+    width: 77%;
+    transition: 0.6s;
+}
+
+#edit-hard:hover{
+
+    transition: 0.6s;
+    height: 81%;
+    width: 82%;
+}
+
+#funcao-hard{
+
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ju-animacao{
+
+    height: 100%;
+    width: 25%;
+    animation: animarju 2.5s ease;
+}
+
+@keyframes animarju{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        left: -25%;
+    }
+
+    20%{
+
+        opacity: 0;
+        position: relative;
+        left: -25%;
+    }
+
+    100%{
+
+        opacity: 1;
+        position: relative;
+        left: 0%;
+    }
+}
+
+.diego-animacao{
+
+    height: 100%;
+    width: 25%;
+    animation: animardiego 2.5s ease;
+}
+
+@keyframes animardiego{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        top: -75%;
+    }
+
+    20%{
+
+        opacity: 0;
+        position: relative;
+        top: -75%;
+    }
+
+    100%{
+
+        opacity: 1;
+        position: relative;
+        top: 0%;
+    }
+}
+
+.douglas-animacao{
+
+    height: 100%;
+    width: 25%;
+    animation: animardouglas 2.5s ease;
+}
+
+@keyframes animardouglas{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        top: 75%;
+    }
+
+    20%{
+
+        opacity: 0;
+        position: relative;
+        top: 75%;
+    }
+
+    100%{
+
+        opacity: 1;
+        position: relative;
+        top: 0%;
+    }
+}
+
+.hard-animacao{
+
+    height: 100%;
+    width: 25%;
+    opacity: 1;
+    animation: animarhard 2.5s ease;
+}
+
+@keyframes animarhard{
+
+    0%{
+        opacity: 0;
+        position: relative;
+        left: -50%;
+    }
+
+    20%{
+
+        opacity: 0;
+        position: relative;
+        left: -50%;
+    }
+
+    100%{
+
+        opacity: 1;
+        position: relative;
+        left: 0%;
+    }
+}
+
+
+
+
+.nome-funcionarios{
+
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    position: relative;
+    top: 40px;
+}
+
+.funcao-funcionario{
+
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative;
+    top: -40px;
+}
+
+.editar-fotos{
+
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+}
+
+#apresentacao-servicos{
+
+    height: 17%;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+#mostrar-servicos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 94%;
+    width: 100%;
+    background-color: #d11010;
+    border-radius: 0px 0px 95px 95px;
+}
+
+.titulo-apresentacao{
+
+    font-size: 38px;
+    font-family: titulos;
+    color: rgb(0,0,0);
+
+}
+
+#abertura-servico{
+
+
+    height: 60%;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+#titulo-comofunciona{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30%;
+    width: 100%;
+
+}
+
+.nossos-servicos{
+
+    font-size: 43px;
+    cursor: text;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    text-decoration-color: #d11010;
+
+    position: relative;
+    top: 17px;
+}
+
+#dissertar-o-servico{
+
+    display: flex;
+    height: 70%;
+    width: 100%;
+
+
+}
+
+#espaco-escrita-servicos{
+
+    height: 100%;
+    width: 10%;
+
+}
+
+#abertura-dos-servicos{
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: #FAFAFA;
+
+    height: 17%;
+    width: 100%;
+
+}
+
+.escrita-abertura-dos-servicos{
+
+    position: relative;
+    top: -10px;
+
+    font-size: 43px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    text-decoration-color: #d11010;
+}
+
+#espaco-para-escrever-servicos{
+
+    height: 100%;
+    width: 80%;
+
+}
+
+.a-prevenir-é{
+
+    cursor: text;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative;
+    top: 30px;
+    color: rgb(2, 1, 1);
+}
+
+#territorio-servico-1{
+
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: #FAFAFA;
+
+}
+
+#hidrantes{
+
+    display: flex;
+    height: 100%;
+    width: 50%;
+
+
+}
+
+#bloco-esquerda{
+
+    height: 100%;
+    width: 60%;
+    
+    position: relative;
+    left: 230px;
+
+}
+
+#bloco-direita{
+
+    height: 100%;
+    width: 60%;
+
+    position: relative;
+    left: 50px;
+}
+
+#foto-equipamento{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 55%;
+    width: 100%;
+
+}
+
+.editar-foto-hidrante{
+
+    box-shadow: 2px 2px 4px black;
+    height: 94%;
+    width: 67%;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.editar-foto-hidrante:hover{
+
+    box-shadow: 2px 2px 4px black;
+    height: 101%;
+    width: 71%;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#nome-do-equipamento{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 15%;
+    width: 100%;
+
+}
+
+.label-titulo-equipamento{
+
+    font-size: 210%;
+    cursor: text;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    text-decoration-color: #d11010;
+}
+
+#descricao-equipamento{
+
+    display: flex;
+    height: 18%;
+    width: 100%;
+
+}
+
+#espaco-equipamento{
+
+    height: 100%;
+    width: 10%;
+
+}
+
+#espaco-equipamento-planejamento{
+
+    height: 100%;
+    width: 110%;
+
+}
+
+#definitivo-descricao-do-equipamento{
+
+    height: 100%;
+    width: 90%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.label-equipamento{
+
+    cursor: text;
+    font-size: 111%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#botao-equipamento{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 10%;
+    width: 100%;
+
+}
+
+
+
+#para-raios{
+
+    height: 100%;
+    width: 50%;
+
+}
+
+
+.edit-para-raios{
+
+    box-shadow: 2px 2px 4px black;
+    height: 264px;
+    width: 270px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.edit-para-raios:hover{
+
+    box-shadow: 2px 2px 4px black;
+    height: 282px;
+    width: 292px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+#territorio-servico-2{
+
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+#alarme-de-incendio{
+
+    height: 100%;
+    width: 50%;
+}
+
+.edit-para-alarme-incendio{
+
+    box-shadow: 2px 2px 4px black;
+    height: 264px;
+    width: 270px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.edit-para-alarme-incendio:hover{
+
+    box-shadow: 2px 2px 4px black;
+    height: 282px;
+    width: 292px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#sistemas-de-sprinkler{
+
+    height: 100%;
+    width: 50%;
+
+}
+
+.edit-para-sistemas-de-sprinkler{
+
+    box-shadow: 2px 2px 4px black;
+    height: 264px;
+    width: 270px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.edit-para-sistemas-de-sprinkler:hover{
+
+    box-shadow: 2px 2px 4px black;
+    height: 282px;
+    width: 292px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#territorio-servico-3{
+
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+#iluminacao-de-emergencia{
+
+    height: 100%;
+    width: 50%;
+}
+
+
+.edit-para-iluminacao-de-emergência{
+
+    box-shadow: 2px 2px 4px black;
+    height: 264px;
+    width: 270px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.edit-para-iluminacao-de-emergência:hover{
+
+    box-shadow: 2px 2px 4px black;
+    height: 282px;
+    width: 292px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+#extintor-de-incendio{
+
+    height: 100%;
+    width: 50%;
+}
+
+.edit-para-extintor-de-incendio{
+
+    box-shadow: 2px 2px 4px black;
+    height: 264px;
+    width: 270px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.edit-para-extintor-de-incendio:hover{
+
+    box-shadow: 2px 2px 4px black;
+    height: 282px;
+    width: 292px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#territorio-servico-4{
+
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+#corrimao{
+
+    height: 100%;
+    width: 50%;
+
+}
+
+.edit-para-corrimao{
+
+    box-shadow: 2px 2px 4px black;
+    height: 264px;
+    width: 270px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.edit-para-corrimao:hover{
+
+    box-shadow: 2px 2px 4px black;
+    height: 282px;
+    width: 292px;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+#portas-corta-fogo{
+
+    height: 100%;
+    width: 50%;
+}
+
+#territorio-servico-5-ultimo{
+
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    background-color: #FAFAFA;
+
+}
+
+.editar-botao-eu-quero-planejamento{
+
+    height: 96%;
+    width: 12%;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px 15px 15px 15px;
+    transition: 1s;
+    background-color: #0da884;
+}
+
+.editar-botao-eu-quero-planejamento:hover{
+
+    height: 101%;
+    width: 15%;
+    transition: 0.5s;
+    box-shadow: 3px 3px 10px #60e6c6;
+    background: linear-gradient(136deg, #0da884, #4be0be);
+    animation: transicao 3s ease  infinite;
+    background-size: 400% 400%;
+}
+
+.editar-botao-eu-quero{
+
+    height: 95%;
+    width: 35%;
+    cursor: pointer;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px 15px 15px 15px;
+    transition: 1s;
+    background-color: #0da884;
+
+}
+
+.editar-botao-eu-quero:hover{
+
+    height: 104%;
+    width: 45%;
+    transition: 0.5s;
+    box-shadow: 3px 3px 10px #60e6c6;
+    background: linear-gradient(136deg, #0da884, #4be0be);
+    animation: transicao 3s ease  infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes transicao {
+
+
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#espaco-entre-territorios-servicos{
+
+
+    height: 10%;
+    width: 100%;
+    background-color: #fafaff;
+}
+
+
+#contato{
+
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background-color: #181414;
+}
+
+#logo-da-empresa{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 100%;
+    width: 30%;
+
+}
+
+#contato-prevenir-logo-da-empresa{
+
+    position: relative;
+    top: -45px;
+}
+
+#entre-em-contato{
+
+
+    height: 100%;
+    width: 40%;
+
+
+}
+
+#escrita-entrar-contato{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 25%;
+    width: 100%;
+
+
+}
+
+#espaco-entre-os-contatos{
+
+    height: 5%;
+    width: 100%;
+}
+
+.label-entre-os-contato{
+
+    font-size: 34px;
+    color: #fafafa;
+}
+
+#email{
+
+    display: flex;
+    height: 20%;
+    width: 100%;
+
+}
+
+
+
+#espaco-email{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 100%;
+    width: 26%;
+
+
+}
+
+#icone-email{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 100%;
+    width: 15%;
+}
+
+.img-email{
+
+    height: 100%;
+    width: 80%;
+    cursor: pointer;
+
+    position: relative;
+    left: -4px;
+    top: 10px;
+
+}
+
+.img-email:hover{
+
+    animation: animacao-email 0.5s infinite;
+}
+
+@keyframes animacao-email{
+
+
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+#mostrar-o-email{
+
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-end;
+
+
+    height: 100%;
+    width: 80%;
+
+}
+
+#espaco-necessario-para-dar-espaco{
+    
+    height: 4%;
+    width: 100%;
+}
+
+.label-edit-email{
+
+    color: #fafafa;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -10px;
+}
+
+#locarizacao{
+
+    display: flex;
+    height: 20%;
+    width: 100%;
+
+}
+
+#espaco-locarizacao{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 100%;
+    width: 18%;
+
+}
+
+#icone-locarizacao{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 100%;
+    width: 15%;
+
+}
+
+.img-locarizacao{
+
+    height: 87%;
+    width: 70%;
+    cursor: pointer;
+
+    position: relative;
+    left: 12px;
+
+}
+
+.img-locarizacao:hover{
+
+    animation: animacao-locarizacao 10s infinite;
+}
+
+@keyframes animacao-locarizacao{
+
+    50%{ position: relative;  
+    
+        top: -20px;
+    }
+    
+}
+
+
+#mostrar-a-locarizacao{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items:flex-start;
+
+
+    height: 100%;
+    width: 70%;
+
+}
+
+
+.label-edit-locarizacao{
+
+    color: #fafafa;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative;
+    left: 13px;
+}
+
+
+#telefone{
+
+    display: flex;
+    height: 20%;
+    width: 100%;
+}
+
+#espaco-telefone{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 100%;
+    width: 18%;
+}
+
+#icone-telefone{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 100%;
+    width: 15%;
+}
+
+.img-telefone{
+
+    height: 90%;
+    width: 70%;
+    cursor: pointer;
+
+    position: relative;
+    left: 12px;
+}
+
+.img-telefone:hover{
+
+    animation: animacao-email 0.5s infinite;
+}
+
+#mostrar-o-telefone{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:baseline;
+
+
+    height: 100%;
+    width: 70%;
+
+}
+
+.label-edit-telefone{
+
+    color: #fafafa;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative;
+    left: 13px;
+}
+
+#espaco-nao-grudar-contato{
+
+    height: 5%;
+    width: 100%;
+    background-color: #181414;
+}
+
+#redes-sociais{
+
+    height: 100%;
+    width: 30%;
+}
+
+#escrita-rede-social{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    height: 25%;
+    width: 100%;
+
+}
+
+.label-redes-sociasis{
+
+    font-size: 34px;
+    color: #fafafa;
+}
+
+#mostrar-as-redes{
+
+    display: flex;
+    height: 75%;
+    width: 100%;
+}
+
+#instragram{
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    height: 100%;
+    width: 35%;
+}
+
+
+
+#facebook{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+
+
+}
+
+#linkdim{
+
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 100%;
+    width: 35%;
+
+}
+
+.edit-redes-socias{
+
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+
+    position: relative;
+    top: -10px;
+    transition: 0.4s;
+}
+
+.edit-redes-socias:hover{
+
+    height: 70px;
+    width: 70px;
+    transition: 0.4s;
+}
